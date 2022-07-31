@@ -1,0 +1,18 @@
+@import "LeftContent/LeftContent";
+@import "RightContent/RightContent";
+.Content{
+ display: -ms-grid;
+ display: grid;
+ -ms-grid-columns: 1fr 1fr;
+ grid-template-columns: 1fr 1fr;
+ margin: 0 auto;
+ padding: 0px 15px 0px 15px;
+
+
+}
+
+@media only screen and (max-width: 1250px){
+ .Content{
+  display: block;
+ }
+}

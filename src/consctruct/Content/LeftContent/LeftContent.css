@@ -1,0 +1,65 @@
+.Content__Left {
+  display: grid;
+  grid-template-rows: 40% 60%;
+}
+.Content__Left span {
+  color: black;
+  font-size: 24px;
+  line-height: 32px;
+  display: block;
+}
+.Content__info {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #C4C4C4;
+}
+.Content__Lamp {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.Content__Card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 500px;
+  width: 178px;
+  background-color: #BDDDDD;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  box-shadow: -6px 0px 8px 0px rgba(34, 60, 80, 0.2) inset;
+}
+.Content__Items {
+  overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  height: 100%;
+  padding: 17px;
+}
+.Content__Items::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+.Content__Item {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 33.3333333333%;
+  border-radius: 20px;
+  transition: 0.5s all;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.Content__Item img {
+  height: 100%;
+}
+.Content__Item:hover {
+  background-color: white;
+}
+.Content__Button {
+  height: 75px;
+  width: 100%;
+  background-color: black;
+}
+
+/*# sourceMappingURL=LeftContent.css.map */

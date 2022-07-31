@@ -1,0 +1,28 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "SF Compact Display Thin";
+  background-color: #DBEEEE;
+  height: 968px;
+}
+*{
+  box-sizing: border-box;
+}
+ul{
+  list-style: none;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.container{
+  max-width: 1600px;
+}
+@font-face {
+  font-family: 'SF Compact Display Thin';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SF Compact Display Thin'), url('../Fonts/sf-compact-display-thin-58646eb43a785.woff') format('woff');
+}
+$nautical-light: #DBEEEE;

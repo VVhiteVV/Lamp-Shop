@@ -1,0 +1,27 @@
+.Content{
+  &__Right{
+    position: relative;
+
+  }
+  &__Right > img{
+    position: absolute;
+    height: 200px;
+    left: 25%;
+  }
+  &__Room{
+    height: 100%;
+    img{
+      border-radius: 20px;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+@media only screen and (max-width: 1250px){
+  .Content{
+    &__Right > img {
+      height: 25%;
+    }
+  }
+}
