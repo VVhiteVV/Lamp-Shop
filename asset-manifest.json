@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Lamp-Shop/static/css/main.bb1b4385.css",
+    "main.js": "/Lamp-Shop/static/js/main.448b69b0.js",
+    "static/media/RoomDark.png": "/Lamp-Shop/static/media/RoomDark.b37b7757c4e6ad7e57a4.png",
+    "static/media/Room.png": "/Lamp-Shop/static/media/Room.337b1a763ea91da4dde0.png",
+    "static/media/sf-compact-display-thin-58646eb43a785.woff": "/Lamp-Shop/static/media/sf-compact-display-thin-58646eb43a785.613e216ff91a98bcf9c9.woff",
+    "index.html": "/Lamp-Shop/index.html",
+    "main.bb1b4385.css.map": "/Lamp-Shop/static/css/main.bb1b4385.css.map",
+    "main.448b69b0.js.map": "/Lamp-Shop/static/js/main.448b69b0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb1b4385.css",
+    "static/js/main.448b69b0.js"
+  ]
+}
